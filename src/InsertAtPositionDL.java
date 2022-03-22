@@ -1,5 +1,5 @@
 //Insert node at the position
-public class DLInsertAtPosition {
+public class InsertAtPositionDL {
     class Node{
         Node next;
         Node prev;
@@ -57,7 +57,7 @@ public class DLInsertAtPosition {
     }
 
     public static void main(String[] args) {
-        DLInsertAtPosition obj = new DLInsertAtPosition();
+        InsertAtPositionDL obj = new InsertAtPositionDL();
         obj.Insert(1);
         obj.Insert(2);
         obj.Insert(3);
